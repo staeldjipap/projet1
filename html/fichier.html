@@ -1,32 +1,99 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Amazing Article</title>
 </head>
+
 <body>
-    <h1>Amazing Article</h1> 
-    <h5>Florin Pop</h5> <br> <br>
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium quia in ratione dolores cupiditate, maxime aliquid
-        impedit dolorem nam dolor omnis atque fuga labore modi veritatis porro laborum minus, illo, maiores recusandae cumque ipsa 
-        quos. Tenetur, consequuntur mollitia labore pariatur sunt quia harum aut. Eum maxime dolorem provident natus veritatis 
-        molestiae cumque quod voluptates ab non, tempore cupiditate? Voluptatem, molestias culpa. Corrupti, laudantium iure aliquam 
-        rerum sint nam quas dolor dignissimos in error placeat quae temporibus minus optio eum soluta cupiditate! Cupiditate saepe 
-        voluptates laudantium. Ducimus consequuntur perferendis consequatur nobis exercitationem molestias fugiat commodi omnis. 
-        Asperiores quia tenetur nemo ipsa.
-    </p><br>
-    <h3>My Dog</h3> <br>
-    <img src="../images/dog.avif" alt="My Dog" class="a"> <br> <br>
-    <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit libero deleniti rerum quo, incidunt vel 
-        consequatur culpa ullam.Magnam facere earum unde harum. Ea culpa veritatis magnam at aliquid. 
-        Perferendis totam placeat molestias illo laudantium? Minus id minima doloribus dolorum fugit deserunt 
-        qui vero voluptas, ut quia cum amet temporibus veniam ad ea ab perspiciatis, enim accusamus asperiores
-        explicabo provident. Voluptates sint, neque fuga cum illum, tempore autem maxime similique laborum odio,
-        magnam esse. Aperiam?
-    </p> <br> <br> <br> <br>
+
+    <div class="container">
+        <div class="circle-container">
+            <div class="circle">
+                <button id="close">
+                    <i class="fas fa-times"></i>
+                </button>
+                <button id="open">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div> 
+        <div class="content">
+            <!-- <div>
+                <div class="container" onclick="fichier.js">
+                    <img class="img1" src="../images/menu.png" alt="" class="rotate">
+                    <img class="img2" src="../images/croix.webp" alt="" class="rotate">      
+                </div>
+            </div> -->
+            <h1>Amazing Article</h1>
+           <h5>Florin Pop</h5> <br> <br>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium quia in ratione dolores cupiditate,
+            maxime aliquid
+            impedit dolorem nam dolor omnis atque fuga labore modi veritatis porro laborum minus, illo, maiores
+            recusandae cumque ipsa
+            quos. Tenetur, consequuntur mollitia labore pariatur sunt quia harum aut. Eum maxime dolorem provident natus
+            veritatis
+            molestiae cumque quod voluptates ab non, tempore cupiditate? Voluptatem, molestias culpa. Corrupti,
+            laudantium iure aliquam
+            rerum sint nam quas dolor dignissimos in error placeat quae temporibus minus optio eum soluta cupiditate!
+            Cupiditate saepe
+            voluptates laudantium. Ducimus consequuntur perferendis consequatur nobis exercitationem molestias fugiat
+            commodi omnis.
+            Asperiores quia tenetur nemo ipsa.
+         </p><br>
+         <h3>My Dog</h3> <br>
+         <img src="../images/dog.avif" alt="My Dog" class="dog"> <br> <br>
+         <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit libero deleniti rerum quo, incidunt vel
+            consequatur culpa ullam.Magnam facere earum unde harum. Ea culpa veritatis magnam at aliquid.
+            Perferendis totam placeat molestias illo laudantium? Minus id minima doloribus dolorum fugit deserunt
+            qui vero voluptas, ut quia cum amet temporibus veniam ad ea ab perspiciatis, enim accusamus asperiores
+            explicabo provident. Voluptates sint, neque fuga cum illum, tempore autem maxime similique laborum odio,
+            magnam esse. Aperiam?  
+         </p> <br> <br> <br> <br>
+        </div>
+    </div>
+    <!-- <div class="e" id="plan1">
+        <div style="display:flex;">
+            <p>
+                <img src="../images/home.png" alt="" class="c">
+            </p>
+            <p style="line-height: 65px; margin-left: 5px;">
+               HOME
+            </p>
+        </div>
+        <div style="display:flex;">
+            <p>
+                <img src="../images/aboout.webp" alt="" class="c">
+            </p>
+            <p class="line-height: 65px; margin-left: 5px;">
+                ABOUT
+            </p>
+        </div>
+        <br>
+        <div style="display:flex;">
+            <p>
+                <img src="../images/env.png" alt="" class="c">
+            </p>
+            <p class="line-height: 65px; margin-left:0;">
+                CONTACT
+            </p> 
+        </div>
+    </div> -->
+    <nav>
+        <ul>
+            <li><i class="fas fa-home"></i>Home</li>
+            <li><i class="fas fa-user-alt"></i>About</li>
+            <li><i class="fas fa-envelope"></i>Contact</li>
+        </ul>
+    </nav>
+
+<script src="../js/fichier.js"></script>
 </body>
+
 </html>
